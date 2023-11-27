@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+<div class="game">
+    <div class="part1">
+        <div class="header"> 
+            <h1>QUIZ 🍒</h1>
+            <div id="hs" style="color: white;">your score is: 0</div>
+        </div>
+        <div class="middle">
+            <h2>SELECT CATEGORY:</h2>
+            <div class="options">
+            <button id="cinema"> <img src="inema.jpeg" style="height: 50px; width: 50px;"> </button>
+            <button id="music"> <img src="music.png" style="height: 50px; width: 50px;"> </button>
+            <button id="games"> <img src="ames.jpeg" style="height: 50px; width: 50px;"> </button>
+            <button id="food"> <img src="food.jpeg" style="height: 50px; width: 50px;"> </button>
+            <button id="sports"> <img src="sports.png" style="height: 50px; width: 50px;"> </button>
+            <br>
+            <button id="geography"> <img src="geography.jpeg" style="height: 50px; width: 50px;"> </button>
+            <button id="history"> <img src="history.jpeg" style="height: 50px; width: 50px;"> </button>
+            <button id="space"> <img src="images.jpeg" style="height: 50px; width: 50px;"> </button>
+            <button id="plants"> <img src="plant.png" style="height: 50px; width: 50px;"> </button>
+            <button id="animals"> <img src="lion.jpg" style="height: 50px; width: 50px;"> </button>
+            <br>
+            <button id="myth"> <img src="myth.jpeg" style="height: 50px; width: 50px;"> </button>
+            <button id="nature"> <img src="nature.jpeg" style="height: 50px; width: 50px;"> </button>
+            <button id="army"> <img src="army.jpeg" style="height: 50px; width: 50px;"> </button>
+            <button id="science"> <img src="science.jpeg" style="height: 50px; width: 50px;"> </button>
+            <button id="brands"> <img src="nike.png" style="height: 50px; width: 50px;"> </button>
+            </div>
+        </div>
+    </div>
+    <div class="part2">
+        <button class="start"> Start Quiz </button>
+        <div class="box"> 
+         <div class="head" style="display: flex; background-color: rgb(193, 193, 193);">
+            <p style="font-weight: 600; margin-left: 10px; font-family: arial;">Quiz hub</p>
+            <div id="time" style="background-color: red; margin-left: 350px; margin-top: 10px; font-weight: 500; height: 22px ; width: 100px;">Time Left: 20</div>
+         </div><br>
+         <div class="mid" style=" background-color: white;"> <br>
+            <div id="question" style="font-size: 18px; font-family: 'Lucida Sans'; color: black; text-align: center;">
+            </div><br>
+            <button id="option1" style="font-size: 18px; font-family: georgia; color: black; border: none; width: 40%;">
+            </button>
+            <button id="option2" style="font-size: 18px; font-family:  georgia; color: black; margin-left: 20px; border: none; width: 40%;">
+            </button>
+            <button id="option3" style="font-size: 18px; font-family:  georgia; color: black; border: none; width: 40%;">
+            </button>
+            <button id="option4" style="font-size: 18px; font-family: georgia; color: black; margin-left: 20px; border: none; width: 40%;">
+            </button>
+
+         </div>
+         <div class="bot" style="display: flex; background-color: rgb(209, 128, 128);">
+            <p class="quescount" style="font-weight: 400; margin-left: 10px; font-family: arial;"> 0 of 10 Questions</h5>
+            <button id="next">Next</button>
+         </div>
+        </div>
+    </div>
+</div>
+<script src="quiz.js"></script>
+</body>
+</html>
